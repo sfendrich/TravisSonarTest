@@ -17,4 +17,13 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    @Test 
+    public void callMainMethod()
+    {
+        String[] args = new String[0];
+        App app = new App();
+        app.main(args);
+        assertTrue( true );
+    }
 }
