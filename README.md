@@ -32,3 +32,7 @@ Add travis support:
 git add .travis.yaml
 git commit -m "Add travis"
 ```
+
+Add sonar support by following this guide: https://docs.travis-ci.com/user/sonarcloud/ .
+
+
