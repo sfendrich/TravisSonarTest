@@ -1,6 +1,12 @@
 language: java
+
+branches:
+  only:
+    - master
+
 addons:
   sonarcloud:
     organization: "sfendrich-github"
+
 script:
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
