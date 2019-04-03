@@ -1,15 +1,14 @@
 package com.example.app;
 
 /**
- * Hello world!
+ * Hello, world!
  *
+ * Just add some comment to have a new commit.
  */
 public class App 
 {
-    private int unusedVariable;
-
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+       System.out.println( "Hello, World!" );
     }
 }
