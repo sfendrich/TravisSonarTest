@@ -3,6 +3,7 @@ package com.example.app;
 /**
  * Hello, world!
  *
+ * Just add some comment to have a new commit.
  */
 public class App 
 {
